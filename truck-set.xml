@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+ <sim>
+
+  <description>Truck</description>
+  <author>Detlef Faber</author>
+  <status>alpha</status>
+  <flight-model>yasim</flight-model>
+  <aero>truck-yasim</aero>
+
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+
+  <sound>
+   <path>Aircraft/p51d/p51d-sound.xml</path>
+  </sound>
+
+  <model>
+   <path>Aircraft/truck/Models/Truck.xml</path>
+  </model> 
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <x-offset-m archive="y" type="double">-0.4</x-offset-m>
+    <y-offset-m archive="y" type="double">1.930</y-offset-m>
+    <z-offset-m archive="y" type="double">2.295</z-offset-m>
+    <pitch-offset-deg>-17.5</pitch-offset-deg>
+   </config>
+  </view>
+
+  <view n="1">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.0</target-z-offset-m>
+   </config>
+  </view>
+
+  <view n="2">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.0</target-z-offset-m>
+   </config>
+  </view>
+
+  <view n="3">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.0</target-z-offset-m>
+   </config>
+  </view>
+
+  <view n="4">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.949</target-z-offset-m>
+   </config>
+  </view>
+
+  <view n="5">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.0</target-z-offset-m>
+   </config>
+  </view>
+
+  <view n="6">
+   <config>
+    <target-z-offset-m archive="y" type="double">3.0</target-z-offset-m>
+   </config>
+  </view>
+
+  <hud>
+   <enable3d>false</enable3d>
+  </hud>
+
+  <help>
+    <key>
+      <name>,</name>
+      <desc>Brakes</desc>
+    </key>
+    <key>
+      <name>.</name>
+      <desc>Accelerator</desc>
+    </key>
+  </help>
+ </sim>
+
+ <engines>
+  <engine>
+   <rpm type="double">700</rpm>
+  </engine>
+ </engines>
+ <controls>
+   <engines>
+      <engine n="0">
+        <magnetos>3</magnetos>
+      </engine>
+   </engines>
+ </controls>
+</PropertyList>
+
+
+
+
